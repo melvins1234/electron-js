@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap'); */
+
+body {
+    background: #262626;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.row {
+    background: #181818;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p.notify {
+    background: #c3c3c3;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    -webkit-app-region: drag;
+}
+
+div#price-container {
+    background: #42403e;
+    text-align: center;
+}
